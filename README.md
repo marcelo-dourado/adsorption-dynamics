@@ -1,2 +1,4 @@
-# adsorption-dynamics
-Software to plot a graphic the profile of dimensionless bulk concentration within time.
+# Adsorption Dynamics
+Software to plot a graphic of the profile of dimensionless bulk concentration within time.
+
+
