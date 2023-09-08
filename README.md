@@ -49,7 +49,7 @@ To use the app, follow these steps:
 
 The app produces visual results that include:
 
-- A plot comparing the PVSDM (Δ𝑉-Δ𝑡) and QPVSDM (Quadratic Δ𝑉-Δ𝑡) model predictions with the experimental data.
+- A plot comparing the PVSDM QPVSDM model predictions with the experimental data.
 
 These results help you evaluate how well the chosen adsorption models fit your experimental data.
 
