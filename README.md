@@ -24,14 +24,22 @@ The primary objective of this project is to simulate and compare the PVSDM and Q
 
 To run the simulation successfully, you need to provide the following input parameters:
 
-1. **Final Time (𝑡𝑓):** The total time for the simulation in minutes.
-2. **Omega (ω):** The dimensionless adsorbent dosage.
-3. **Biot Number (Bi):** A dimensionless number used to characterize the relative importance of external mass transfer to internal mass transfer.
-4. **Mean Radius of Adsorbent (𝑅):** The mean radius of the adsorbent in centimeters.
-5. **Pore/Surface Diffusivity Ratio (𝐷sp):** The ratio of pore diffusivity to surface diffusivity.
-6. **Pore Diffusivity (𝐷p):** Pore diffusivity in square centimeters per second.
-7. **Adsorbent Porosity (ε):** The porosity of the adsorbent material.
-8. **Langmuir Parameters (𝛼 and 𝛽):** The dimensionless Langmuir parameters.
+- Bulk tab:
+  1. **Omega (ω):** The dimensionless adsorbent dosage.
+  2. **Biot Number (Bi):** A dimensionless number used to characterize the relative importance of external mass transfer to internal mass transfer.
+
+- Solid/solute tab:
+  1.  **Mean Radius of Adsorbent (𝑅):** The mean radius of the adsorbent in centimeters.
+  2.  **Pore/Surface Diffusivity Ratio (𝐷sp):** The ratio of pore diffusivity to surface diffusivity.
+  3.  **Pore Diffusivity (𝐷p):** Pore diffusivity in square centimeters per second.
+  4.  **Adsorbent Porosity (ε):** The porosity of the adsorbent material.
+
+- Equilibrium tab
+  1. **Langmuir Parameters (𝛼 and 𝛽):** The dimensionless Langmuir parameters.
+  2. **Final Time (𝑡𝑓):** The total time for the simulation in minutes.
+
+- Data tab:
+  - Follow the instructions in the app.
 
 ## 4. Usage<a name="usage"></a>
 
@@ -45,11 +53,13 @@ To use the app, follow these steps:
 
 4. **Plot Results:** The app will generate plots comparing the simulation results of both models with the provided experimental data.
 
+Steps 2-4 will run automatically after uploading the experimental data.
+
 ## 5. Results<a name="results"></a>
 
 The app produces visual results that include:
 
-- A plot comparing the PVSDM QPVSDM model predictions with the experimental data.
+- A plot comparing the PVSDM and QPVSDM model predictions with the experimental data.
 
 These results help you evaluate how well the chosen adsorption models fit your experimental data.
 
@@ -57,13 +67,15 @@ These results help you evaluate how well the chosen adsorption models fit your e
 
 To get started with this project, follow these steps:
 
-1. Clone this repository to your local machine. Alternatively, you can download the project.
+1. Clone this repository to your local machine. Alternatively, you can download the full project.
 
 2. Follow the usage instructions mentioned above to run the app with your specific input data.
 
 ## 7. Contributing<a name="contributing"></a>
 
-If you would like to contribute to this project or report issues, just click on the "Need help?" button and e-mail me. Feel free to reach out if you have any questions or need further assistance with this Adsorption Kinetics project. Happy simulating and analyzing!
+Please cite our article: Rodrigues et al. (2023). "Development of a phenomenological model including porous and surface diffusion for batch adsorption". 
+If you would like to contribute to this project or report issues, just click on the "Need help?" button and e-mail me. 
+Feel free to reach out if you have any questions or need further assistance with this Adsorption Kinetics project. Happy simulating and analyzing!
 
 ---
 Last Update: September 2023
